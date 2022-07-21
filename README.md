@@ -17,3 +17,4 @@
 	script.js - Ajax запрос и скрипт на копирование текста
 	sqlheader.php - данные для входа в БД
 	style.css - таблица стилей
+	lttl.sql - файл БД mySQL
