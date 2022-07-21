@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^(\w+)$ following_a_link.php?l=$1 [L]

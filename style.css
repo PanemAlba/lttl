@@ -1,0 +1,122 @@
+@font-face {
+    font-family: playfairRegular;
+    src: url(inc/playfair/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: montserratRegular;
+    src: url(inc/montserrat/Montserrat-Regular.ttf);
+}
+
+* { box-sizing: border-box; }
+
+html { height: 100%; padding:0; margin:0; }
+
+body {
+    color: #ffffff;
+    margin: 0;
+    font-size: 14px;
+    background: #1E1E1E;
+    position: relative;
+    font-family: montserratRegular;
+}
+
+.logoName{
+    font-size: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 90px;
+    font-family: playfairRegular;
+}
+.logoDesc{
+    font-size: 22px;
+    line-height: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.btnlttl{
+    width: 130px;
+    height: 40px;
+    background: #A6008B;
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;  
+}
+
+.hover:active{
+    box-shadow: 0 0 10px #ffffff,0 0 20px #d800ff,0 0 30px #b90396;
+    border-radius: 20px;
+}
+
+.w100{ width: 100%; }
+
+.pdg10{ padding: 10px; }
+
+.bpdg5{
+    padding-bottom: 5px;
+}
+
+.tpdg5{
+    padding-top: 5px;
+}
+
+.tbpdg20{
+    padding: 20px 0px;
+}
+
+.tac {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+input[type="text"]{
+    width: 300px;
+    height: 35px;
+    padding: 7px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+input[name="lttl_link"]{
+    cursor: pointer;
+}
+
+hr{
+    border-width: 1px;
+    opacity: 0.1;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0px 10px 20px 10px;
+}
+
+th{
+    padding: 10px;
+    width: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+td{
+    padding: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    word-wrap: break-word;
+    max-width: 300px;
+}
+
+td a{
+    word-wrap: break-word;
+}
+
+a{ color: #fff; }
